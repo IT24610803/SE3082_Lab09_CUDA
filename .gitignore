@@ -1,0 +1,21 @@
+# Ignore PDF lecture slides and textbooks
+*.pdf
+!SE3082_Lab09_IT24610803_Report.pdf
+
+# Ignore compiled binary objects and executables
+*.o
+*.obj
+*.exe
+*.out
+
+# Ignore temporary generation scripts and Lab 10 items in this repo
+__pycache__/
+*.py[cod]
+*.py
+*.html
+lab10/
+SE3082_Lab10*
+ex1_timed.cu
+ex2_check.cu
+ex3_picture.cu
+ex4_volume.cu
